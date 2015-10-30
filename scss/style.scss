@@ -4,6 +4,12 @@
 
 
 /**
+ * Colors
+ */
+
+ $pumpkin: rgba(211, 84, 0,1.0);
+
+/**
  * BOX-SIZING
  */
 
@@ -73,6 +79,45 @@ img {
 /**
  * YOUR CODE HERE
  */
+
+ #wrapper {
+    padding-top: 50px;
+
+    .hero-unit{
+        background: url(http://lorempixel.com/1200/900/nature/1/) 100% 100% no-repeat;
+        background-size: cover;
+        
+        > * {
+            margin: 8px 0px;
+            color: #fff;
+            font-weight: 200;
+        }
+    }
+
+    .services{
+
+        .big-icon {
+            margin: 0 auto;
+            background: $pumpkin;
+            width: 100px; 
+            line-height: 100px;
+            font-size: 60px;
+            border-radius: 50%;
+
+        }
+    }
+
+    .portfolio {
+        background: #ddd;
+    }
+
+    .contact-us{
+        background: #333;
+        color: $pumpkin;
+    }
+ }
+
+
 
 
 
