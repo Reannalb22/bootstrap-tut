@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Walkthrough</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+
+<body>
+    <div id="wrapper">
+    	<nav class="navbar navbar-default navbar-fixed-top">
+      <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+	      	<div class="container-fluid">
+		        <div class="navbar-header">
+		          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6" aria-expanded="false">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </button>
+		          <a class="navbar-brand" href="#">Brand</a>
+	        	</div>
+
+		        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+		          <ul class="nav navbar-nav navbar-right" >
+		            <li class="active"><a href="#">About</a></li>
+		            <li><a href="#">Services</a></li>
+		            <li><a href="#">Portfolio</a></li>
+		            <li><a href="#">Contact</a></li>
+		          </ul>
+		        </div><!-- /.navbar-collapse -->
+		    </div>
+    	</nav>
+
+		<div class="jumbotron text-center">
+		  <h1>Welcome to My First Bootstrap App!</h1>
+		  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+		</div>
+
+
+
+		<div class="container-fluid text-center">
+			<h2 class="service">Services</h2>
+
+			<div>
+				<div class="col-xs-12 col-sm-4">
+					<div><i class="fa fa-shopping-cart"></i></div>
+					<h3>eCommerce</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<div><i class="fa fa-laptop"></i></div>
+					<h3>Responsive Design</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<div><i class="fa fa-lock"></i></div>
+					<h3>Web Security</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<h2 class="text-center">Portfolio</h2>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+					<a href="#" class="thumbnail">
+      					<img src="http://lorempixel.com/g/300/200/nightlife/3/" alt="...">
+    				</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+					<a href="#" class="thumbnail">
+      					<img src="http://lorempixel.com/g/300/200/nightlife/4/" alt="...">
+    				</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+					<a href="#" class="thumbnail">
+      					<img src="http://lorempixel.com/g/300/200/nightlife/5/" alt="...">
+    				</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+					<a href="#" class="thumbnail">
+      					<img src="http://lorempixel.com/g/300/200/nightlife/6/" alt="...">
+    				</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+					<a href="#" class="thumbnail">
+      					<img src="http://lorempixel.com/g/300/200/nightlife/7/" alt="...">
+    				</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+					<a href="#" class="thumbnail">
+      					<img src="http://lorempixel.com/g/300/200/nightlife/10/" alt="...">
+    				</a>
+				</div>	
+			</div>
+		</div>
+
+		<div class="container">
+			<h2 class="text-center">Contact Us</h2>
+			<div class="row">
+				<div class="color-xs-12 col-sm-6">
+					<div class="form-group">
+    					<label for="exampleInputEmail1">Name</label>
+    					<input type="text" class="form-control" id="exampleName" placeholder="Name">
+  					</div>
+  					<div class="form-group">
+    					<label for="exampleInputEmail1">Email address</label>
+    					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  					</div>
+				</div>
+
+				<div class="color-xs-12 col-sm-6">
+					<div class="form-group"
+						<label for="exampleInputEmail1">Tell Me More</label>
+						<textarea class="form-control" rows="5"></textarea>
+					</div>
+				</div>
+
+				<div class="col-xs-12 text-right">
+					<button class="btn btn-default btn-xs">Reset Fields</button>
+					<button class="btn btn-primary">Hey</button>
+					<button class="btn btn-success btn-lg">Submit</button>
+				</div>
+
+		</div>
+
+
+
+    </div>
+    <script type="text/javascript" src="./app-browserify.js"></script>
+</body>
+</html>
